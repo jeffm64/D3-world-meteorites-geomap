@@ -1,0 +1,121 @@
+/*//////////////////////////////////////
+	UNIVERSAL
+//////////////////////////////////////*/
+
+* {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-weight: normal;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	padding: 0;
+	margin: 0;
+	font-weight: normal;
+}
+
+img,
+video {
+	max-width: 100%;
+}
+
+input, button, select, textarea, submit {
+	border: none;
+}
+
+/* ---- Float clearfix ---- */
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+
+
+/*//////////////////////////////////////
+	TEXT TRANSFORM
+//////////////////////////////////////*/
+
+/*Uppercase*/
+
+/*Lowercase*/
+
+
+
+/*//////////////////////////////////////
+	FONTS
+//////////////////////////////////////*/
+
+/*BUNGEE INLINE*/
+
+
+
+/*//////////////////////////////////////
+	COLORS
+//////////////////////////////////////*/
+
+/*BLACK*/
+.site-container {
+  background: #0d0d0d;
+}
+
+/*GRAY*/
+.meteors {
+  stroke: gray;
+}
+
+/*WHITE*/
+#tooltip {
+  background: rgba(242, 242, 242, 0.8);
+}
+
+
+
+/*//////////////////////////////////////
+	D3 WORLD METEORITE GEOMAP
+//////////////////////////////////////*/
+
+.site-content {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.meteors {
+  stroke-width: 1px;
+  fill-opacity: 0.4;
+}
+
+/*//////////////////////////////////////
+	TOOLTIP
+//////////////////////////////////////*/
+
+#tooltip {
+  position: absolute;
+  text-align: left;
+  width: 250px;
+  padding: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+  z-index: 5;
+}
+
+.hidden {
+  display: none;
+}
+

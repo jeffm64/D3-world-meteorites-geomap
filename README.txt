@@ -1,0 +1,1 @@
+This is a Geomap chart that shows meorites that have hit Earth and their sizes and other information. Created in D3.js
